@@ -3,7 +3,10 @@ FROM ubuntu
 MAINTAINER Matthew Kemp mattkp13@gmail.com
 
 RUN apt-get update
+RUN apt install python3 -y
 
-CMD ["echo","Hello World"]
+WORKDIR /usr/app/src
 
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+COPY python.py ./
+
+CMD ["python3","./python.py"]
