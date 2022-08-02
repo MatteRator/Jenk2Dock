@@ -10,3 +10,4 @@ WORKDIR /usr/app/src
 COPY python.py ./
 
 CMD ["python3","./python.py"]
+

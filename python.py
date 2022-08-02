@@ -5,5 +5,6 @@ def hello(word):
 
 hello("Hello World!")
 
-while(True):
+
+for i in range(1,1000):
     time.sleep(1)
