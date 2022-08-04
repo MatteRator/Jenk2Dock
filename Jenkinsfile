@@ -13,7 +13,7 @@ pipeline {
                     //fromRegistry: [], 
                     //pushCredentialsId: '',
                     pushOnSuccess: false,
-                    //tagsString: ''
+                    tagsString: 'jenkinsdidit'
                     ]
                 )
             }
