@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('DockerBuild') {
             steps ('Build file'){
-                sh 'node --version'
-                sh 'svn --version'
+                sh 'git --version'
             }
         }
     }
