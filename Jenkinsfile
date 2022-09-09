@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('DockerBuild') {
             steps ('Build file'){
-                sh 'git --version'
+                sh 'echo "Just one success pls"'
             }
         }
     }
