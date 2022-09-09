@@ -3,9 +3,8 @@ pipeline {
     stages {
         stage('DockerBuild') {
             steps ('Build file'){
-                step(
-                    sh 'echo "pipline says hello"'
-                )
+                sh 'node --version'
+                sh 'svn --version'
             }
         }
     }
