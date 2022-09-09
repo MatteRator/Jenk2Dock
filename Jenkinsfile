@@ -4,7 +4,7 @@ pipeline {
         stage('DockerBuild') {
             steps ('Build file'){
                 step(
-                    echo 'Pipeline Says Hello'
+                    sh 'echo "pipline says hello"'
                 )
             }
         }
